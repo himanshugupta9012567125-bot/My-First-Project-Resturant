@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>starter Menu</title>
-    <link rel="stylesheet" href="starter.css">
-    <style>
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhaba Restaurant Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: linear-gradient(rgb(158, 145, 176),rgb(109, 119, 109));
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: rgb(46, 16, 16);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .menu-section {
+      padding: 20px;
+    }
+    .menu-category {
+      margin-bottom: 30px;
+    }
+    .menu-category h2 {
+      border-bottom: 4px solid black;
+      color: #663333;
+      padding-bottom: 5px;
+    }
+    .menu-item {
+      display:flex;
+      justify-content: space-between;
+      margin: 8px 0;
+    }
+    .menu-item span {
+      font-weight: bold;
+    }
+    .price {
+      color: #006400;
+    }
+  </style>
 </head>
 <body>
-    <h1>Starter Menu</h1>
-   
-    
-    <div class="box">
-        <ul>
-            <h1>tandoori-chicken-indian-non-vegetarian</h1>
-           
-                <img width=300px height=200px
-                    src="https://sinfullyspicy.com/wp-content/uploads/2014/07/1200-by-1200-images-2.jpg"
-                    alt="Tandoori Chicken"> 
-            </li>
-            <h1>paneer-tikka-indian-vegetarian</h1>
-       
-                <img width=300px height=200px
-                    src="https://www.cookwithmanali.com/wp-content/uploads/2015/07/Restaurant-Style-Recipe-Paneer-Tikka.jpg"                    alt="Paneer Tikka">
-           
-            <h2>Spring Rolls
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/vegetable-spring-rolls-on-wooden-600w-1729938282.jpg"
-                    alt="Spring Rolls">
-            </li>
-           <h2>Chicken Wings</h2>
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/delicious-spicy-grilled-chicken-wings-600w-1931850922.jpg"
-                    alt="Chicken Wings">
-            </li>
-            <li>Garlic Bread
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/garlic-bread-on-wooden-cutting-600w-1939272334.jpg"
-                    alt="Garlic Bread">
-            </li>
-            <li>Stuffed Mushrooms
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/stuffed-mushrooms-on-wooden-cutting-600w-1939272336.jpg"
-                    alt="Stuffed Mushrooms">
-            </li>
-            <li>Bruschetta
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/bruschetta-on-wooden-cutting-board-600w-1939272338.jpg"
-                    alt="Bruschetta">
-            </li>
-            <li>Nachos with Salsa
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/nachos-with-salsa-on-wooden-600w-1939272340.jpg"
-                    alt="Nachos with Salsa">
-            </li>
-            <li>Deviled Eggs
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/deviled-eggs-on-wooden-cutting-600w-1939272342.jpg"
-                    alt="Deviled Eggs">
-            </li>
-            <li>Mini Samosas
-                <img width=300px height=200px
-                    src="https://www.shutterstock.com/image-photo/mini-samosas-on-wooden-cutting-600w-1939272344.jpg"
-                    alt="Mini Samosas">
-            </li>
+  <header>
+    <h1>🍲 Welcome to Our Starter menu 🍲</h1>
+    <p>Authentic Indian  Food</p>
+  </header>
 
-        </ul>
+  <div class="menu-section">
+    <div class="menu-category">
+      <h2>Starters</h2>
+      <div class="menu-item"><span>Paneer Tikka</span> <span class="price">₹180</span></div>
+      <div class="menu-item"><span>Veg Pakora</span> <span class="price">₹120</span></div>
+      <div class="menu-item"><span>Chicken Seekh Kebab</span> <span class="price">₹220</span></div>
     </div>
-        <a href="starter.html"><b>STARTER</b></a>
 
-    </section>
-        <a href="index.html"><b> Back to Home Page </b></a>
-    </section>
-    <address>
-        &copy; 2024 Cafe/Restaurant. All rights reserved.
-    </address>
-    
+    <div class="menu-category">
+      <h2>Main Course</h2>
+      <div class="menu-item"><span>Dal Tadka</span> <span class="price">₹150</span></div>
+      <div class="menu-item"><span>Butter Chicken</span> <span class="price">₹280</span></div>
+      <div class="menu-item"><span>Paneer Butter Masala</span> <span class="price">₹250</span></div>
+    </div>
+
+    <div class="menu-category">
+      <h2>Breads</h2>
+      <div class="menu-item"><span>Tandoori Roti</span> <span class="price">₹20</span></div>
+      <div class="menu-item"><span>Butter Naan</span> <span class="price">₹40</span></div>
+      <div class="menu-item"><span>Lachha Paratha</span> <span class="price">₹50</span></div>
+    </div>
+
+    <div class="menu-category">
+      <h2>Beverages</h2>
+      <div class="menu-item"><span>Masala Chai</span> <span class="price">₹30</span></div>
+      <div class="menu-item"><span>Lassi (Sweet/Salted)</span> <span class="price">₹60</span></div>
+      <div class="menu-item"><span>Cold Drink</span> <span class="price">₹40</span></div>
+    </div>
+  </div>
 </body>
 </html>
